@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+.top-nav {
+    position: absolute;
+    width: auto;
+    padding: 2px;
+    margin: 10px 25px;
+    right: 0px;
+    font-size: 13px;
+}
+
+ol {
+    position: absolute;
+    right: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 7px;
+    color: #444;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    text-align: center;
+    padding: 200px 0 25px 0;
+}
+
+.logo img {
+    width: 280px;
+    height: 99px;
+}
+
+.search {
+    text-align: center;
+    font-size: 14px;
+}
+
+.search input {
+    padding: 5px;
+    margin: 5px;
+}
+
+.search input[name="search-bar"] {
+    border: 1px solid #bbb;
+    height: 25px;
+}
+
+.search input[name="search-bar"]:focus {
+    border: 1px solid #5882FA;
+}
+
+.search input[name="search-bar"]:hover {
+    border: 1px solid #888;
+}
+
+.search input[type="submit"] {
+    border: 1px solid #eee;
+    background-color: #eee;
+    color: #666;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 20px 5px;
+}
+
+.search input[type="submit"]:hover {
+    border: 1px solid #aaa;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+#sb {
+    width: 600px;
+}
+
+#grid-img {
+    height: 16px;
+    width: 16px;
+    margin-bottom: -5px;
+}
+
+#sign-in {
+    background-color: #5882FA;
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+}
+
+#mic {
+    height: 24px;
+    width: 24px;
+    margin-bottom: -7px;
+    margin-left: -37px;
+}
